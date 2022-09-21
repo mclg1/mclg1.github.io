@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap");
+
+body,
+html {
+    @apply bg-gray-800;
+}
+
+a {
+    @apply underline;
+}
+a:hover {
+    @apply opacity-50;
+}
