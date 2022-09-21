@@ -18,7 +18,8 @@
                                 <h1 class="text-6xl font-bold text-gray-300">Luke Geaves</h1>
 
                                 <h2 class="px-2">
-                                    Experienced in building e-Commerce and SaaS websites, VR and AI powered mobile apps.
+                                    Full stack Software Engineer with experience in building e-Commerce and SaaS
+                                    websites, VR and AI powered mobile apps.
                                 </h2>
 
                                 <div class="px-2 flex text-gray-400 space-x-8">
@@ -28,7 +29,7 @@
                                     </p>
                                     <p>
                                         {{ dateDifference(new Date(), new Date(2015, 4, 1), "year") }}
-                                        years developing
+                                        years experience
                                     </p>
                                 </div>
 
@@ -80,14 +81,9 @@
 import dataModel from "./data";
 import momentServices from "./services/moment";
 
-import spanner from "./icons/spanner.vue";
-
 export default {
     data() {
         return dataModel;
-    },
-    components: {
-        spanner,
     },
     mounted() {
         this.loading = true;

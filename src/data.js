@@ -2,13 +2,11 @@ const dataModel = {
     loading: true,
     skills: {
         items: [
-            "JavaScript, Vue.js, Node.js, SQL",
-            "AWS Lambda, API Gateway, Cognito, Amplify, S3, CloudWatch",
-            "Google Dialogflow, Firebase, Maps APIs",
-            "Native iOS and Android Apps with NativeScript",
+            "Vue.js, React.js",
+            "NativeScript, React Native",
+            "Node.js, MYSQL",
+            "AWS Lambda, SNS, Aurora, DynamoDB, S3, Cloudwatch, API Gateway, Cognito",
             "Adobe Ps, Ai, In, Xd, Pr, Ae",
-            "Autodesk Maya, Mudbox",
-            "Unity 3D, 2D",
         ],
     },
     experience: {
@@ -20,7 +18,7 @@ const dataModel = {
                 endDate: null,
                 location: "Cambridge, England",
                 roles: [
-                    "Full stack development of web and mobile applications",
+                    "Full stack development of web and mobile apps",
                     "e-Commerce, SaaS, Supply Chain and Asset Management",
                 ],
             },
@@ -31,8 +29,8 @@ const dataModel = {
                 endDate: new Date(2017, 11),
                 location: "Letchworth, England",
                 roles: [
-                    "Web application design maintenance",
-                    "Development of Email Templates",
+                    "e-Commerce Web app design and development",
+                    "Development of email templates",
                     "Marketing website content",
                 ],
             },
@@ -50,7 +48,7 @@ const dataModel = {
                 roles: [
                     "Game development",
                     "Web design and development",
-                    "Image and Video editing",
+                    "Image and video editing",
                     "3D modelling and animation",
                 ],
             },
@@ -61,7 +59,7 @@ const dataModel = {
                 startDate: new Date(2011, 8),
                 endDate: new Date(2014, 6),
                 location: "Stevenage, England",
-                grade: "Distincion, Distincion, Merit",
+                grade: "Distinction, Distinction, Merit",
                 roles: ["Web development", "2D Game development"],
             },
         ],
